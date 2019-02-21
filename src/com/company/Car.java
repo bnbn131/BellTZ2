@@ -3,12 +3,12 @@ package com.company;
 public class Car {
     protected  String mark;
 
-    private float weight;
+    private double weight;
 
     private int power;
 
 
-    public Car(String mark, float weight,int power) {
+    public Car(String mark, double weight,int power) {
         this.mark = mark;
         this.weight = weight;
         this.power = power;

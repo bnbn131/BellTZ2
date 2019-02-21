@@ -2,20 +2,20 @@ package com.company;
 
 public class Lorry extends Car {
 
-    private float capacity;
+    private double capacity;
 
 
-    public Lorry(String mark, float weight, int power) {
+    public Lorry(String mark, double weight, int power) {
         super(mark, weight, power);
         this.capacity = capacity;
 
 
     }
-    public float getCapacity() {
+    public double getCapacity() {
         return capacity;
     }
 
-    public void setCapacity(float capacity) {
+    public void setCapacity(double capacity) {
         this.capacity = capacity;
     }
     public void setMark(String s) {
